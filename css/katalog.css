@@ -1,0 +1,168 @@
+body {
+    background-image:url('../img/coba.jpg');
+}
+/* Content */
+#kiri{
+      float: left;
+      width: 210px;
+      padding: 9px;
+      margin-left: 5px;
+      margin-top: 20px;
+      margin-right: 5px;
+      background-color: #E6E6FA ;
+      border: 1px #a0b1a0 solid;
+}
+#tengah{
+      float: left;
+      width: 1020px;
+      padding: 9px;
+      border: 1px #a0b1a0 solid;
+      margin-top: 20px;
+      margin-left: 60px;
+      background-color:#fff;
+      margin-bottom: 5px;
+}
+
+/*Kategori*/
+#simple li {
+	fontcolor : black;
+}
+.ul{
+	color : white;
+}
+
+#simple li.active {
+	color : white;
+    background: #FFF;
+}
+#simple li a{
+	color : black;
+}
+#simple li.active a {
+    color: #0044a1;
+    font-weight: bold;
+}
+
+/*Search Box*/
+form {
+    width:300px;
+    margin-left: 5px;
+    margin-top: 130px;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+ol, ul {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+hr.onepixel {
+    border-top: 1px solid #afbcc6;
+    border-bottom: 1px solid #eff2f6;
+    height: 0px;
+	padding : 0px;
+	margin : 3px;
+}
+/* Artic */
+div#Artic {
+	width: 190px;
+	height: 190px;
+	margin: 30px;
+	overflow: hidden;
+	float: left;
+}
+div#Artic:hover {
+cursor: pointer;
+}
+div#Artic:hover #imgholder{
+	filter: blur(7px);
+}
+div#Artic:hover #caption{
+	margin-top: 0px;
+	height: 190px;
+
+}
+#imgholder{
+	transition: filter 0.5s;
+	width:560px;
+	height: 100%;
+	margin-left: -165px;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+}
+
+img#less {
+position: relative;
+height: 100%;
+}
+
+#Artic #Caption {
+width: 220px;
+height: 70px;
+margin-top: 120px;
+background-color: black;
+opacity: 0.7;
+transition: margin-top 0.7s, height 0.8s;
+position: absolute;
+margin-left: -10px;
+z-index:100;
+color : white;
+font-family: Ebrima;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Baju 2 */
+/* Article Event */
+article#more {
+ float: left;
+ width:60%;
+ padding: 9px;
+ border: 1px #fdfdfd solid;
+ margin-top: 5px;
+ margin-left: 20%;
+ font-family: Calibri;
+ background-color:black;
+}
+article#more h3{
+ color : #fff;
+ text-align:left;
+ font-size: 20;
+}
+article#more p{
+ padding :0px 0px 0px 10px;
+ color:#fff;
+ text-align:justify;
+}
+article#more .img_article{
+ padding :0px 10px;
+ height:50%;
+ width:95%;
+ float:left;
+}
+article#more .img_article2{
+ padding :0px 10px;
+ height:30%;
+ width:95%;
+ float:left;
+}
+div#Artic:hover {
+cursor: pointer;
+}

@@ -1,0 +1,277 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body {
+    background-image:url('../images/batikbg.png');
+}
+
+.wrap{
+	width:80%;
+	margin:0 auto;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
+}
+.wrap-box{
+	background: url(../images/strip.png);
+	padding:2px;
+}
+.header-bottom{
+	background: #2D2D2D;
+}
+.header-top {
+	padding:10px 0;
+	background: #ffd133;
+	background: -moz-linear-gradient(top,  #ffd133 0%, #ffa503 99%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd133), color-stop(99%,#ffa503));
+	background: -webkit-linear-gradient(top,  #ffd133 0%,#ffa503 99%);
+	background: -o-linear-gradient(top,  #ffd133 0%,#ffa503 99%);
+	background: -ms-linear-gradient(top,  #ffd133 0%,#ffa503 99%);
+	background: linear-gradient(to bottom,  #ffd133 0%,#ffa503 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd133', endColorstr='#ffa503',GradientType=0 );
+}
+.top-header-left {
+	float: left;
+}
+.top-header-left p {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size: 0.875em;
+	background: url(../images/phone.png) no-repeat;
+	padding-left: 18px;
+}
+.right-left {
+	float: right;
+}
+.right-left ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.login {
+	background: url(../images/lock.png) no-repeat 0;
+	padding-left: 18px;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.sign {
+	background: url(../images/login.png) no-repeat 0;
+	padding-left: 18px;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.login:hover {
+	background: url(../images/lock1.png) no-repeat 0;
+}
+.sign:hover {
+	background: url(../images/login1.png) no-repeat 0;
+}
+.right-left ul li a {
+	color:#fff;
+	font-size: 0.875em;
+}
+.right-left ul li a:hover {
+	color:#333;
+}
+.follow_icon {
+	list-style: none;
+	padding-top: 10px;
+}
+ul.follow_icon  li {
+	display:inline-block;
+	margin-left: 1px;
+}
+.follow_icon li :hover{
+	opacity:0.7;
+}
+.follow_icon li a img {
+	vertical-align: middle;
+}
+.logo {
+	float: left;
+	margin-top:1.1%;
+}
+/*--menu--*/
+.top-nav {
+	float: right;
+}
+.top-nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 40px 33px;
+	width: 10.99%;
+}
+.top-nav ul li a {
+	color: #fff;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+	position: relative;
+}
+.top-nav li.active a, .top-nav li a:hover {
+	color:#ffa503;
+}
+.main {
+	background: #FFF;
+}
+/* Content */
+#kiri{
+      float: left;
+      width: 200px;
+      padding: 9px;
+      margin-left: 5px;
+      margin-top: 40px;
+      margin-right: 5px;
+      background-color: #E6E6FA ;
+      border: 1px #a0b1a0 solid;
+}
+#tengah{
+      float: left;
+      width: 1260px;
+      padding: 9px;
+      border: 1px #a0b1a0 solid;
+      margin-top: 40px;
+      margin-left: 10px;
+      background-color:#fff;
+      margin-bottom: 5px;
+}
+
+/*Kategori*/
+#simple li {
+	fontcolor : black;
+}
+.ul{
+	color : white;
+}
+
+#simple li.active {
+	color : white;
+    background: #FFF;
+}
+#simple li a{
+	color : black;
+}
+#simple li.active a {
+    color: #0044a1;
+    font-weight: bold;
+}
+
+/* Artic */
+div#Artic {
+	width: 190px;
+	height: 190px;
+	margin: 30px;
+	overflow: hidden;
+	float: left;
+}
+div#Artic:hover {
+cursor: pointer;
+}
+div#Artic:hover #imgholder{
+	filter: blur(7px);
+}
+div#Artic:hover #caption{
+	margin-top: 0px;
+	height: 190px;
+
+}
+#imgholder{
+	transition: filter 0.5s;
+	width:560px;
+	height: 100%;
+	margin-left: -165px;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+}
+
+img#less {
+position: relative;
+height: 100%;
+}
+
+#Artic #Caption {
+width: 220px;
+height: 70px;
+margin-top: 120px;
+background-color: black;
+opacity: 0.7;
+transition: margin-top 0.7s, height 0.8s;
+position: absolute;
+margin-left: -10px;
+z-index:100;
+color : white;
+font-family: Ebrima;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+/* Baju 2 */
+/* Article Event */
+article#more {
+ float: left;
+ width:60%;
+ padding: 9px;
+ border: 1px #fdfdfd solid;
+ margin-top: 5px;
+ margin-left: 20%;
+ font-family: Calibri;
+ background-color:black;
+}
+article#more h3{
+ color : #fff;
+ text-align:left;
+ font-size: 20;
+}
+article#more p{
+ padding :0px 0px 0px 10px;
+ color:#fff;
+ text-align:justify;
+}
+article#more .img_article{
+ padding :0px 10px;
+ height:50%;
+ width:95%;
+ float:left;
+}
+article#more .img_article2{
+ padding :0px 10px;
+ height:30%;
+ width:95%;
+ float:left;
+}
+div#Artic:hover {
+cursor: pointer;
+}

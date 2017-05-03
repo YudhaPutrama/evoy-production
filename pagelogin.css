@@ -1,0 +1,328 @@
+/* Background */
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+}
+.bg {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: 0;
+     left: 0;
+}
+
+/* Tulisan Login Form */
+.headerr{ 
+	position: absolute;
+	top: calc(40% - 35px);
+	left: calc(37% - 255px);
+	z-index: 2;
+}
+.headerr div span{
+	color: #5379fa !important;
+}
+
+.headerr div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+/* Tulisan Daftar Form */
+.headerr2{ 
+	position: absolute;
+	top: calc(40% - 35px);
+	left: calc(60.5% - 255px);
+	z-index: 2;
+}
+.headerr2 div span{
+	color: #5379fa !important;
+}
+
+.headerr2 div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+/* Tulisan Lupa Password */
+.headerr3{ 
+	position: absolute;
+	top: calc(65% - 35px);
+	left: calc(37% - 255px);
+	z-index: 2;
+}
+.headerr3 div span{
+	color: #5379fa !important;
+}
+
+.headerr3 div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+/* Form Login */
+.loginn{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(20% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.loginn input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.loginn input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.loginn input[type=button]{
+	width: 260px;
+	height: 35px;
+	background:  #F0E68C;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.loginn input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.loginn input[type=button]:active{
+	opacity: 0.6;
+}
+
+.loginn input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginn input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.loginn input[type=button]:focus{
+	outline: none;
+}
+
+/* Form Daftar */
+.daftar{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(45% - 50px);
+	height: 390px;
+	width: 300px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.daftar input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.daftar input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+/* Form Daftar 2 */
+.daftar2{
+	position: absolute;
+	top: calc(50% - 85px);
+	left: calc(63% - 50px);
+	height: 390px;
+	width: 300px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.daftar2 input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.daftar2 input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.daftar2 input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.daftar2 input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+/* Form Daftar 3 */
+.daftar3{
+	position: absolute;
+	top: calc(73% - 75px);
+	left: calc(45% - 50px);
+	height: 390px;
+	width: 575px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.daftar3 textarea{
+	width: 525px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+.daftar3 input[type=button]{
+	width: 535px;
+	height: 35px;
+	background: #F0E68C;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.daftar3 textarea:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+.daftar3 input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.daftar3 input[type=button]:active{
+	opacity: 0.6;
+}
+.daftar3 input[type=button]:focus{
+	outline: none;
+}
+
+/*Lupa Password Form */
+.lupapas{
+	position: absolute;
+	top: calc(77% - 75px);
+	left: calc(20% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.lupapas input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+.lupapas input[type=button]{
+	width: 260px;
+	height: 35px;
+	background:  #F0E68C;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.lupapas input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.lupapas input[type=button]:active{
+	opacity: 0.6;
+}
+
+.lupapas input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.lupapas input[type=button]:focus{
+	outline: none;
+}
